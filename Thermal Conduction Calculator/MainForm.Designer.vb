@@ -45,6 +45,7 @@ Partial Class MainForm
         Me.txtFilePath = New System.Windows.Forms.TextBox()
         Me.btnRun = New System.Windows.Forms.Button()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         CType(Me.matTable, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -52,6 +53,7 @@ Partial Class MainForm
         Me.GroupBox4.SuspendLayout()
         CType(Me.interactionTable, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox5.SuspendLayout()
+        Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'matTable
@@ -61,7 +63,7 @@ Partial Class MainForm
         Me.matTable.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.matMaterialCol, Me.matMassCol, Me.matConductivityCol, Me.matSpecHeatCol, Me.matTempCol})
         Me.matTable.Location = New System.Drawing.Point(12, 60)
         Me.matTable.Name = "matTable"
-        Me.matTable.Size = New System.Drawing.Size(846, 180)
+        Me.matTable.Size = New System.Drawing.Size(571, 127)
         Me.matTable.TabIndex = 0
         '
         'matMaterialCol
@@ -189,7 +191,7 @@ Partial Class MainForm
         Me.interactionTable.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.InteractionCol, Me.EfficiencyCol, Me.contactAreaCol, Me.deltaXCol})
         Me.interactionTable.Location = New System.Drawing.Point(12, 246)
         Me.interactionTable.Name = "interactionTable"
-        Me.interactionTable.Size = New System.Drawing.Size(846, 193)
+        Me.interactionTable.Size = New System.Drawing.Size(690, 171)
         Me.interactionTable.TabIndex = 5
         '
         'InteractionCol
@@ -254,11 +256,18 @@ Partial Class MainForm
         '
         'StatusStrip1
         '
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
         Me.StatusStrip1.Location = New System.Drawing.Point(0, 541)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Size = New System.Drawing.Size(870, 22)
         Me.StatusStrip1.TabIndex = 8
-        Me.StatusStrip1.Text = "StatusStrip1"
+        Me.StatusStrip1.Text = "StatusStrip"
+        '
+        'ToolStripStatusLabel1
+        '
+        Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(39, 17)
+        Me.ToolStripStatusLabel1.Text = "Status"
         '
         'MainForm
         '
@@ -288,6 +297,8 @@ Partial Class MainForm
         CType(Me.interactionTable, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox5.PerformLayout()
+        Me.StatusStrip1.ResumeLayout(False)
+        Me.StatusStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -316,4 +327,5 @@ Partial Class MainForm
     Friend WithEvents matConductivityCol As DataGridViewTextBoxColumn
     Friend WithEvents InteractionCol As DataGridViewTextBoxColumn
     Friend WithEvents EfficiencyCol As DataGridViewTextBoxColumn
+    Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
 End Class

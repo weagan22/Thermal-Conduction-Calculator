@@ -10,3 +10,15 @@ C:\Users\Will.Eagan\Desktop\New folder\Thermal Conduction Calculator\Thermal Con
 C:\Users\Will.Eagan\Desktop\New folder\Thermal Conduction Calculator\Thermal Conduction Calculator\obj\Debug\Thermal Conduction Calculator.xml
 C:\Users\Will.Eagan\Desktop\New folder\Thermal Conduction Calculator\Thermal Conduction Calculator\obj\Debug\Thermal Conduction Calculator.pdb
 C:\Users\Will.Eagan\Desktop\New folder\Thermal Conduction Calculator\Thermal Conduction Calculator\obj\Debug\Thermal_Conduction_Calculator.MainForm.resources
+C:\Users\Will Eagan\Source\Repos\Thermal-Conduction-Calculator\Thermal Conduction Calculator\bin\Debug\Thermal Conduction Calculator.exe.config
+C:\Users\Will Eagan\Source\Repos\Thermal-Conduction-Calculator\Thermal Conduction Calculator\bin\Debug\Thermal Conduction Calculator.exe
+C:\Users\Will Eagan\Source\Repos\Thermal-Conduction-Calculator\Thermal Conduction Calculator\bin\Debug\Thermal Conduction Calculator.pdb
+C:\Users\Will Eagan\Source\Repos\Thermal-Conduction-Calculator\Thermal Conduction Calculator\bin\Debug\Thermal Conduction Calculator.xml
+C:\Users\Will Eagan\Source\Repos\Thermal-Conduction-Calculator\Thermal Conduction Calculator\obj\Debug\Thermal Conduction Calculator.vbprojResolveAssemblyReference.cache
+C:\Users\Will Eagan\Source\Repos\Thermal-Conduction-Calculator\Thermal Conduction Calculator\obj\Debug\Thermal_Conduction_Calculator.MainForm.resources
+C:\Users\Will Eagan\Source\Repos\Thermal-Conduction-Calculator\Thermal Conduction Calculator\obj\Debug\Thermal_Conduction_Calculator.Resources.resources
+C:\Users\Will Eagan\Source\Repos\Thermal-Conduction-Calculator\Thermal Conduction Calculator\obj\Debug\Thermal Conduction Calculator.vbproj.GenerateResource.cache
+C:\Users\Will Eagan\Source\Repos\Thermal-Conduction-Calculator\Thermal Conduction Calculator\obj\Debug\Thermal Conduction Calculator.vbproj.CoreCompileInputs.cache
+C:\Users\Will Eagan\Source\Repos\Thermal-Conduction-Calculator\Thermal Conduction Calculator\obj\Debug\Thermal Conduction Calculator.exe
+C:\Users\Will Eagan\Source\Repos\Thermal-Conduction-Calculator\Thermal Conduction Calculator\obj\Debug\Thermal Conduction Calculator.xml
+C:\Users\Will Eagan\Source\Repos\Thermal-Conduction-Calculator\Thermal Conduction Calculator\obj\Debug\Thermal Conduction Calculator.pdb
